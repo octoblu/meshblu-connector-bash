@@ -1,0 +1,106 @@
+branches:
+  only:
+  - "/^v[0-9]/"
+env:
+  global:
+  - secure: C1OyWjZ70ue/1girWSvZREyqbZgnQrZW16OK46OxeeIMKbk2QF10jLMabl7phBwFQRxQAF9RN1kv/KwNlsrUAhqbJnyoyT+6t6vowi7xnZqHOpZaP7+aYD5FtQUr1fLi+KhpBk0bs5JOBW3Z/YmVY7fzgNk0v9bMJFemos/fGcTpNZCTJuPaSq7RXrtnIJFQ2LjPSAkAE3Qkv7Oyd3nCN+bgT/w7DC02r4q7M1rs7EJoYiicymS3vy45RZJh2MKjaGiJJvAxqH0Bk2W/XFOaojFz+urQHw84Keqq6w1gNMje3jX418uW7MRnVrLauePI6q4zP5LwC+2TTPJJ0Vzeckk87R0tOM7Zl/fGNYMRNuUQ8Ce7aoq2UKnqNm9dRUA38QqMczxQmIGQ/lOeGQgORrJxcmnGvQvwkeqr/pbvBERJsb2dvTzNPX+3dT3mBluEK4MmYcBVFmUzzSFdetI6uAJZbiHjGDjA/oXbQTFHRculbt5VqBVdDtEldbC6xPE19Q9f1HmLqvg8SScU4Z87DxwrBbkqFskBgup5Eig7p+16fWX2XOhh9ijfwj4+8e5BwvOhxtl5cMNSsOuTKTftgFr/wLfdGXYTih1P3qro/yLblcI/jhOGC4paSPwPaYoqWrccPJ0QgveZ0ryrGKeeraCd1jqn2wgte6kc9JXDgyA=
+  - secure: pvtZshvvbROXP1100FUKJxAp0CtRFzbq934s8MW4gMreff8YaVYtKAQcDvDtvMrLOXvYKhA7mEMdVYVyyxhucPWzUOfHyNGOK/hG0S1S2e+DKwf5lgxFX1WyiPDDTcQUMjf897s2e61A21r/yJhLH7iXrILLHYFeabY7IiZEjFdD4ydN96tW1ez6e4IV0d3t/YwMOltg/F7SU7VziRSnRPZm5VfXKSMXWNCDhYKRrw14qElO+GpPbKMWkMX2VefRxMmThBibsbso6Y/hpceE4zLhPdOgQTbvJY+SelVfNF+4wckb03DiNxR/qr2sY3UQLfa5YA0FWiqgIF2wJKYMtT0jKq/3R7m8mxX8dEfN95OxykW1yJdCMT3tKmkw/c73V150YEzaLz2PwgM1OXZcn87RTCUjb3Si3jrhFhI7GDXF7ysqW77MWaxFJHdZ9cQVLw6wjiXficxkMM2AC4R9TQXsHLm7VP2kDXjlLx+044aId5PQC4TkB1GsTtHvewDb36UrqhH26HIXtEQAPyCAkaRgjpb3SDAjZmdI/SgcvusCVtEqFOj0S8XO53FD2zP1mc/wzfjPw7esP8OWSetgSybpgc8vlXA16bOdY/1xljE8xFr7zEqI1tc0gT+QA7RRN5hXu2McW68h2eYxBsJUfLksPa2hhlzfiYtqW7X3OEA=
+  - secure: X/unxrjp7p0xUUyQDBcatz7+dESHhxlqYkZ3Bi0Be3S6aTs0fF/z3DHsFyz087ETGSR01rEBRZSTQna3GtTtDWjwUby6WCNG5ZvgmkKe6L1uh5neilwlVw2J7T6Ajao2i5Kmm8GnIKRt+gyskDAVn1Mg2dv3vLW5PGMrZOYPOlTrUK3Dp4d0BsgyfuHYXnAjc7K9kUI0qWMp8L/NOAXdcXco/CwqOYEv6c9rORARyy4Zx5JemW0Z6thllsguB711o9y+/7I0k92tv5TxS4LexVqEj7arbjYbzpNLDbP7NLKOfU+zFtg2mhrP9wS7j34AmKK3NS7anmpwfYNbGy55LuCAUOudEzSaVxoE/EOPXXnANTRp5vemkQqa8Xiyx1/2vC4vS0Z3gJry70TPh4ONfRRhzH1NLrBhPCZ2dWIRQg3PuKKzEstAmzKk1KaMzME3+YIxgoNc7qZqeIVRUs36XBDUqaM2SeNrWFZB2BoCJlEY+lU1RQlXFRxC2LxPE7eVmh0UkrwLC+dYtzbWcJ81nlyXENPrmo+iH3k3NxH6IewQHVBxex65tNHfsJzcs55i/rWyXrnY09wRSXNuhBX83s3FJhUqSe4jnGAnl4Xx4EFZLCf7a/egh6FYF70loub/9GCd7p412JDByLeKLBv5Gmyity2zzmb6KEQp1oMnz1o=
+  - secure: Px3SF5yCPmiND/TRu1owBg5a8kwMvGP8HnVCD3jieYHnfJIkVo/Xrn4F2xpAsnsSzYsyAQZRn4QLG2Q3d6h45xGq7CUTVQxP8DA6gvwSBGeSpJA49WfABbsDgEc4461p4MK9MnjTbGx5fTO7JRg1ngYsIifG+0+zfAb6IIBvANesv58ayo+3px1H1xhuTAaOjTxMjdQwOUw0TIdNcC14QKCwCF7JJPKcEzlfpaAGDjjOa2M3VBgQfdyveXVEbmMqDqPrut2PG9/Ks3vNa9nqWUX2Nq8Ud8RC5fR5bK24Er9gGjkGDcdBx6ueBdrRJuAczo2muf8g4vC4yLqK4hecQl+EM5220Nzi16d5/FAvX6CgXlSDTww2XOb5s2Ub+1VMmx8nTjKl4zvUcEDd5WFC9d1NpYfS0HFgN0oJ8snthlEU6w8EYu62gM+1BoFSwpQee1KtRNJ2FbMeShQa7BIdrwyA1mgoC9cWUk0vDPpE51m1AO3K3f8ZgqphyeeaCe6gCfoTphSf99pBBlj7c6mpS4TM842NU2iJZqKK60WVbEJCTzJCNWaTHLE4gTwyPw5hSha2z8zZmRJ+VjITplJ5HUfTwm8vhbwuiBangS/XUSH9XJHyCViV8AYlHegFG6XSmGqljc/FQpGpU1Qpk/AeD64Bhey9WUnJks/sj14f0V4=
+  - secure: fjVSkR3GqPV7TEOIC6WVbF01Csvm1bJKlsGx5hqt2sPWqVnIqmKXE1YFZceH+6iCKAeIpwlElF+j2pfwumpfNqTY3mwQ62/DGaTQSy2JPIPcMkjuSK9uGO2ieYwK/DJ6n3pG4GAcNRJTr6cVJHY7t7paz70zGeQ8BEL8dHmX7Ua30HCoL5SDG/5UwutCXf+Q1MIKCqadZGNtOgRldvnOIx+OSCIg3t3mRYp1pb/HUnK4hCXGedyzenVmm67H1oTg5cffAyHBmH9Yn0X+vucouzglYMxEEB7rzKxiB5UBvtshMSk1PXIQNFEbZDiQqbqHs10CZ7Ugx1KLr0tTgfOn+TAkagXoPkA5bQVFNyZQkQQ5nO6nncQ/o0m8T4mSy9UOr3vK19eMqrcvVnUbS9Z+tBpTU0VaflQSNkOVN4/D6AbPVSoWOHemLVh+6ZejgCBXLsnF9BNbhWrh4oUFXveXwOzRCeYB8HFrhujpJSQ4HPQNCpq5HhcthXIQqJdOGVr59mpYzgWlQaLOgShhV/Z8bKM31O+d34OrhvDlxsKJSxGqtecCdWpDG+BXogAp+veoMMZQSSklRLELOsZS3SkSl3xkOMfxEi6eFFHowdv+aReAhvU+WFDXcAEdVcRHoWOw6kiRTKFEkTgIUomomGbd0sONQoe3QmHjTjTWEkIMuko=
+  - secure: VgBMuFaVaKyqedTbXysjJRferMAcbIpKdc6Ug3h9XFabwL6vSWBVZxJNonlNMQC9aJQ0gMiEHK3KMxfAqFwV9GPiuLhWaC9T8QtcJLfG85pCdA08vk5yl9YLALRVuL5Are6S9LRLafufwYIgF2CEA+gX0Tkx4USy8PNzwYMbHnfUJXRrK3stvDBSs/NN0yL6B63wZpCMO/prlFGgBpiCjAAZvxa4OVMYIC2fA7ZqtwJDcUKt7mnxFQ6onkZxAxwrRDqwAF03x6PXTcx7Ef7s3hnj1rUxisbD7zBKF+lIWu6zgLVXSgjfP0z07pYKd4SA8MuERUcPzexFdX2wExP/kfWpC4CyPacAp5w49Wm2+FcfN6jgSXBMCMowthIzwgLow3p7Kx5zBPBC28wV1GHgnEhfswIB9brDB74EwQg1PW24oafLRkdjZ1SWKe37wT4LWZ/jq0lrSY4ljQN+GdyTqzZs2G0DksX++dVQPfHrjkjUbFKAbz3rVVz6MtGYJdT1Mp9DhL8YpiZJTy5HEEueOcRXZjUZi2vutxKSwYnOVMZH/oHG2hOm/xTLcRyxU7M20U7SmNp8aWe6AW5gWViLnns6ohYCq7mmsG65KdOWhda1U5Nf4XceriTLUCqltJXF43ZwMfTYes0aKQ3YXxE97oMZDBQ8VBnruf5sYkF3MRA=
+matrix:
+  fast_finish: true
+  include:
+  - os: linux
+    language: node_js
+    node_js: '8'
+    after_success:
+    - yarn global add meshblu-connector-schema-generator meshblu-connector-uploader-github
+    - mkdir -p ./deploy/assets
+    - meshblu-connector-schema-generator > ./deploy/assets/schemas.json
+    - meshblu-connector-uploader-github --installers-path ./deploy/assets
+  - os: linux
+    dist: trusty
+    language: shell
+    sudo: required
+    services:
+    - docker
+    install:
+    - docker pull octoblu/meshblu-connector-builder:linux-armv7
+    script:
+    - |
+      docker run --rm --volume $PWD:/work \
+        --env TRAVIS_REPO_SLUG=$TRAVIS_REPO_SLUG \
+        --env TRAVIS_BRANCH=$TRAVIS_BRANCH \
+        --env MESHBLU_CONNECTOR_UPLOADER_GITHUB_TOKEN=$MESHBLU_CONNECTOR_UPLOADER_GITHUB_TOKEN \
+        --env AWS_REGION=$AWS_REGION \
+        --env AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY \
+        --env AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID \
+        --env MESHBLU_CONNECTOR_ENCRYPTION_PASSWORD=$MESHBLU_CONNECTOR_ENCRYPTION_PASSWORD \
+        --env MESHBLU_CONNECTOR_CERT_PASSWORD=$MESHBLU_CONNECTOR_CERT_PASSWORD \
+        octoblu/meshblu-connector-builder:linux-armv7 \
+          bash -c 'export HOME=/tmp/cache \
+            && meshblu-connector-pkger \
+            && meshblu-connector-installer-debian \
+            && meshblu-connector-uploader-github \
+            && upload-deb-s3 \
+          '
+  - os: linux
+    dist: trusty
+    language: shell
+    sudo: required
+    services:
+    - docker
+    install:
+    - docker pull octoblu/meshblu-connector-builder:linux-x86
+    script:
+    - |
+      docker run --rm --volume $PWD:/work \
+        --env TRAVIS_REPO_SLUG=$TRAVIS_REPO_SLUG \
+        --env TRAVIS_BRANCH=$TRAVIS_BRANCH \
+        --env MESHBLU_CONNECTOR_UPLOADER_GITHUB_TOKEN=$MESHBLU_CONNECTOR_UPLOADER_GITHUB_TOKEN \
+        --env AWS_REGION=$AWS_REGION \
+        --env AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY \
+        --env AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID \
+        --env MESHBLU_CONNECTOR_ENCRYPTION_PASSWORD=$MESHBLU_CONNECTOR_ENCRYPTION_PASSWORD \
+        --env MESHBLU_CONNECTOR_CERT_PASSWORD=$MESHBLU_CONNECTOR_CERT_PASSWORD \
+        octoblu/meshblu-connector-builder:linux-x86 \
+          bash -c 'export HOME=/tmp/cache \
+            && meshblu-connector-pkger \
+            && meshblu-connector-installer-debian \
+            && meshblu-connector-uploader-github \
+            && upload-deb-s3 \
+          '
+  - os: linux
+    dist: trusty
+    language: shell
+    sudo: required
+    services:
+    - docker
+    install:
+    - docker pull octoblu/meshblu-connector-builder:linux-x64
+    script:
+    - |
+      docker run --rm --volume $PWD:/work \
+        --env TRAVIS_REPO_SLUG=$TRAVIS_REPO_SLUG \
+        --env TRAVIS_BRANCH=$TRAVIS_BRANCH \
+        --env MESHBLU_CONNECTOR_UPLOADER_GITHUB_TOKEN=$MESHBLU_CONNECTOR_UPLOADER_GITHUB_TOKEN \
+        --env AWS_REGION=$AWS_REGION \
+        --env AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY \
+        --env AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID \
+        --env MESHBLU_CONNECTOR_ENCRYPTION_PASSWORD=$MESHBLU_CONNECTOR_ENCRYPTION_PASSWORD \
+        --env MESHBLU_CONNECTOR_CERT_PASSWORD=$MESHBLU_CONNECTOR_CERT_PASSWORD \
+        octoblu/meshblu-connector-builder:linux-x64 \
+          bash -c 'export HOME=/tmp/cache \
+            && meshblu-connector-pkger \
+            && meshblu-connector-installer-debian \
+            && meshblu-connector-uploader-github \
+            && upload-deb-s3 \
+          '
+  - os: osx
+    node_js: '8'
+    language: node_js
+    after_success:
+    - yarn global add meshblu-connector-pkger meshblu-connector-installer-macos meshblu-connector-uploader-github
+    - meshblu-connector-pkger && meshblu-connector-installer-macos && meshblu-connector-uploader-github

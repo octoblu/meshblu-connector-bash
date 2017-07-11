@@ -1,0 +1,8 @@
+Package: {{ type }}
+Version: {{ version }}
+Section: utils
+Priority: optional
+Architecture: {{ arch }}
+Maintainer: Octoblu, Inc. <npm@octoblu.com>
+Description: {{ description }}
+Depends: wmctrl, xdotool
