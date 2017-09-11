@@ -1,0 +1,47 @@
+{
+  "beekeeper": {
+    "enabled": false
+  },
+  "github": {
+    "release": {
+      "enabled": true,
+      "prerelease": true
+    }
+  },
+  "travis": {
+    "env": [
+      {
+        "name": "DEBUG",
+        "value": "meshblu-connector-*,octodash"
+      },
+      {
+        "name": "MESHBLU_CONNECTOR_GPG_KEY_ID",
+        "env": "BEEKEEPER_MESHBLU_CONNECTOR_GPG_KEY_ID"
+      },
+      {
+        "name": "MESHBLU_CONNECTOR_UPLOADER_GITHUB_TOKEN",
+        "env": "BEEKEEPER_MESHBLU_CONNECTOR_UPLOADER_GITHUB_TOKEN"
+      },
+      {
+        "name": "MESHBLU_CONNECTOR_CERT_PASSWORD",
+        "env": "BEEKEEPER_MESHBLU_CONNECTOR_CERT_PASSWORD"
+      },
+      {
+        "name": "AWS_SECRET_ACCESS_KEY",
+        "env": "BEEKEEPER_AWS_SECRET_ACCESS_KEY"
+      },
+      {
+        "name": "AWS_ACCESS_KEY_ID",
+        "env": "BEEKEEPER_AWS_ACCESS_KEY_ID"
+      },
+      {
+        "name": "AWS_REGION",
+        "env": "BEEKEEPER_AWS_REGION"
+      },
+      {
+        "name": "MESHBLU_CONNECTOR_ENCRYPTION_PASSWORD",
+        "env": "BEEKEEPER_MESHBLU_CONNECTOR_ENCRYPTION_PASSWORD"
+      }
+    ]
+  }
+}
