@@ -1,15 +1,5 @@
 {
-  "beekeeper": {
-    "enabled": false
-  },
-  "github": {
-    "release": {
-      "enabled": true,
-      "prerelease": true
-    }
-  },
-  "travis": {
-    "env": [
+  "env": [
       {
         "name": "DEBUG",
         "value": "meshblu-connector-*,octodash"
@@ -43,5 +33,4 @@
         "env": "BEEKEEPER_MESHBLU_CONNECTOR_ENCRYPTION_PASSWORD"
       }
     ]
-  }
 }
